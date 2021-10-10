@@ -178,7 +178,13 @@ nav{
 }
 .product_name{
     width: fit-content;
+    margin-top: 30px;
     margin-left: 5vw;
+}
+.product_desc>p{
+    width: 90%;
+    display: block;
+    margin: auto;
 }
 .product_gallery{
     display: grid;
@@ -401,6 +407,7 @@ nav{
         line-height:-80px;
         height: 2px;
         margin-bottom: 30px;
-        background-color: #3a3e39;
+        /* background-color: #3a3e39; */
+        background-color: #f6c046;
 }
 /* pop up */
